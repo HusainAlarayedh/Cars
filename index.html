@@ -1,0 +1,71 @@
+<!DOCTYPE html >
+<html lang= "en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Homepage</title>
+
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>	
+
+<body>	
+<div id="nav">
+<h1>Car Fever</h1>
+    <ul>
+	<li><a href='news.html'>News</a></li>
+	<li><a href='reviews.html'>Reviews</a></li>
+	<li><a href='index.html'>Home</a></li>
+    </ul> 
+</div>     
+<div id="slide">
+<img src="Images/Logo/logo2.png" alt="E-Class"  width="1199" height="400" />
+</div>
+<div id= "container"> 
+<h2>About Us </h2> 
+<p> <span style="color:blue;font-weight:bold">Car Fever</span> is a website that offers the latest news regarding automobiles in Bahrain and 
+also presents car reviews. The latter category could prove useful as it helps guide people
+ to purchase cars displaying their respective pros and cons. However, what truly distinguishes this site
+ from others is that the reviews are aimed at the casual customers and aren't overwhelming with many details. 
+In addition, our location and all the ways to contact us are down below. For any further inquiries you can contact us via <a href="mailto:hussain-m-@outlook.com">email</a>. </p>
+</div> 
+<div id = "location" >
+   <h2>Our location</h2>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14322.49640980993!2d50.4836144!3d26.1763689!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x74a44348b8fd70f3!2sBritish%20University%20of%20Bahrain!5e0!3m2!1sen!2sbh!4v1644901436291!5m2!1sen!2sbh" 
+ width="550" height="450" style="border:0"></iframe>
+   </div>
+<div id = "contact"> 
+	<h2> Contact Us </h2> 
+	<form action="mailto:hussain-m-@outlook.com" enctype="text/plain" method="post">
+		<p>Name: <input name= "Name" type="text" id="Name"></p> 
+		<p>Email address: <input name= "Email" type= "text" id="Email"></p>
+		<p>Comment:</p>  
+		<p><textarea name="Comment" id="Comment"></textarea> </p>
+		<p>Gender:</p> 
+		<input type="checkbox" id="gender1" name="gender1" value="Male">
+		<label for="gender1"> Male</label><br>
+		<input type="checkbox" id="gender2" name="gender2" value="Female">
+		<label for="gender2"> Female</label><br>
+		<p><input type="submit" name="Submit" value="Submit"></p>
+
+	</form> 
+ 
+</div> 
+<div  id="footer">
+       <br>
+       <a href="/" title="Print this page">
+       <img src="Images/Logo/printer.png" width="40" height="40" onClick="printpage()" alt="printer" ></a>
+         <script >
+		 <script>
+	   function printpage(){
+		   window.print();
+	   }
+	     </script>
+         <br>
+         Follow us on
+       <p><a href="https://www.facebook.com/"><img src="Images/Logo/facebook.png" width="40" height="40" alt="facebook"></a>
+	<a href="https://twitter.com/"><img src="Images/Logo/twitter.png" width="40" height="40" alt="twitter"></a>
+	<a href="https://instagram.com/"><img src="Images/Logo/Instagram.png" width="40" height="40" alt="instagram"></a></p>
+	<p>&copy; Copyright 2022 Car Fever. All rights reserved.</p>
+     
+    </div>   
+</body>
+</html>
